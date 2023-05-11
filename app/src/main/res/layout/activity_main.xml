@@ -9,6 +9,7 @@
     android:layout_gravity="center">
 
     <TextView
+        android:id="@+id/a"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Quàng Ngọc Thủy _ PH35609"
@@ -22,7 +23,14 @@
     <Button
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
+        android:text="Chuyển"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+         />
 
   </androidx.constraintlayout.widget.ConstraintLayout>
