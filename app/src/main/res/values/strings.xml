@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="content">"Android - Application compoments:                              1.Activity                              2.Service                              3.ContentProvider                              4.Number Phonne     "</string>
+
+</resources>
