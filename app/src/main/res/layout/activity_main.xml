@@ -27,21 +27,8 @@
         android:layout_height="wrap_content"
         android:text="Chuyển"
         tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="533dp" />
+        tools:layout_editor_absoluteY="533dp"
+        tools:ignore="MissingConstraints" />
 
-    <<<<<<< HEAD
-        android:text="Next"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="498dp" />
-=======
-        tools:ignore="MissingConstraints"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-
-
-         />
->>>>>>> origin/master
 
 </androidx.constraintlayout.widget.ConstraintLayout>
